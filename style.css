@@ -28,11 +28,18 @@ header ul{
   font-weight: bold;
   font-size: 28px;
   color: #EA0070;
+  cursor: pointer;
 }
 
 .nav_list li{
   font-weight: 400;
   font-style: 20px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.nav_list li:hover{
+  color: #EA0070;
 }
 
 .btn button{
@@ -42,9 +49,14 @@ header ul{
   border: 1px solid #EA0070;
   color: white;
   font-weight: bold;
+  transition: .5s;
+  cursor: pointer;
 }
 
-
+.btn button:hover{
+  color: white;
+  background-color: #EA0070;
+}
 
 
 
