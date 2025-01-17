@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-family: "Inter", serif;
+  color: white;
+  box-sizing: border-box;
 }
 
 header{
@@ -42,9 +44,19 @@ header ul{
   color: #EA0070;
 }
 
-.btn button{
+.primary_btn{
   padding: 12px 30px;
   background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #EA0070;
+  color: white;
+  font-weight: bold;
+  transition: .5s;
+  cursor: pointer;
+}
+.primary_btnBG{
+  padding: 12px 30px;
+  background-color: #EA0070;
   border-radius: 8px;
   border: 1px solid #EA0070;
   color: white;
@@ -58,10 +70,16 @@ header ul{
   background-color: #EA0070;
 }
 
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
 
-
-
-
+.hero_right img{
+  width: 500px;
+}
 
 
 
