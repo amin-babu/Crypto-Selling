@@ -128,7 +128,19 @@ header ul{
   margin-left: 10px;
 }
 
+.nico_info{
+  margin-top: 18px;
+}
 
+.nico_info .nico_item p{
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.nico_info .nico_item h4{
+  font-size: 25px;
+}
 
 
 
