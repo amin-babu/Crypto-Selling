@@ -77,11 +77,27 @@ header ul{
   padding: 1rem 3rem;
 }
 
-.hero_right img{
-  width: 500px;
+.hero_right{
+  width: 50%;
+}
+.hero_left{
+  width: 50%;
 }
 
+.hero_right img{
+  width: 100%;
+}
 
+.hero_left h1{
+  font-size: 55px;
+  font-weight: 900;
+}
+
+.hero_left h1 span{
+  font-weight: 300;
+  color: #03CEDA;
+  font-style: italic;
+}
 
 
 
