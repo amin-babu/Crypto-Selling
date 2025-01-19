@@ -8,7 +8,6 @@
 
 header{
   width: 100%;
-  height: 100vh;
   background: linear-gradient(to right, #04011C, #1F0D3C);
 }
 
@@ -102,17 +101,32 @@ header ul{
   font-style: italic;
 }
 
-.hero_left p{
+.hero_left > p{
   font-size: 20px;
   font-weight:300;
   line-height: 1.5;
   margin: 18px 0;
 }
 
+.nico_nft .nico_headline {
+  display: flex;
+  align-items: center;
+}
 
+.nico_info{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 
+.nico_nft{
+  margin-top: 40px;
+}
 
-
+.nico_headline h2{
+  font-size: 24px;
+  margin-left: 10px;
+}
 
 
 
