@@ -78,14 +78,17 @@ header ul{
 }
 
 .hero_right{
+  display: flex;
+  justify-content: end;
   width: 50%;
 }
 .hero_left{
-  width: 50%;
+  width: 45%;
 }
 
 .hero_right img{
-  width: 100%;
+  width:75%;
+  margin-top: 15px;
 }
 
 .hero_left h1{
@@ -99,7 +102,12 @@ header ul{
   font-style: italic;
 }
 
-
+.hero_left p{
+  font-size: 20px;
+  font-weight:300;
+  line-height: 1.5;
+  margin: 18px 0;
+}
 
 
 
