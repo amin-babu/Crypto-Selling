@@ -19,10 +19,27 @@ nav{
   align-items: center;
 }
 
+section{
+  padding: 3rem;
+  background: linear-gradient(to right, #04011C, #1F0D3C);
+}
+
 header ul{
   list-style: none;
   display: flex;
   gap: 3rem;
+}
+
+section .heading{
+  font-size: 45px;
+  font-weight: 900;
+  text-align: center;
+}
+
+section .heading span{
+  font-weight: 300;
+  color: #03CEDA;
+  font-style: italic;
 }
 
 .logo h3{
@@ -143,10 +160,21 @@ header ul{
   font-size: 25px;
 }
 
+/* Popular_section */
 
+.Popular_section ul{
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 25px;
+}
 
-
-
+.Popular_section ul li{
+  font-size: 20px;
+  font-weight: 500;
+}
 
 
 
