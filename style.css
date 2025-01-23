@@ -178,13 +178,32 @@ section .heading span{
 
 /* ------nft cards------- */
 
+.nft_cards{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 .nft_cards .nft_child {
   padding: 20px;
   background:linear-gradient(to right, #1B123F, #2B214D);
 }
 
+.nft_cards .nft_child .card_heading, .card_right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
 
+.nft_cards .nft_child > img{
+  width: 100%;
+}
 
+.nft_child  .primary_btnBG{
+  width: 100%;
+}
 
 
 
