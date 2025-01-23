@@ -206,6 +206,10 @@ section .heading span{
   width: 100%;
 }
 
+.card_right span{
+  font-size: 18px;
+  margin-left: 6px;
+}
 
 
 
