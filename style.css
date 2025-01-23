@@ -186,7 +186,7 @@ section .heading span{
 }
 
 .nft_cards .nft_child {
-  padding: 20px;
+  padding: 15px 20px 5px;
   background:linear-gradient(to right, #1B123F, #2B214D);
 }
 
