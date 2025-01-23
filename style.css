@@ -176,9 +176,12 @@ section .heading span{
   font-weight: 500;
 }
 
+/* ------nft cards------- */
 
-
-
+.nft_cards .nft_child {
+  padding: 20px;
+  background:linear-gradient(to right, #1B123F, #2B214D);
+}
 
 
 
